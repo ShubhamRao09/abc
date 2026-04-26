@@ -111,38 +111,8 @@ body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--t1);min-hei
 .result-expr{font-size:.75rem;color:var(--t2);margin-top:3px}
 .result-ph{color:var(--t3);font-size:.85rem;font-style:italic}
 
-/* ── Weather Button ── */
-.weather-btn{width:100%;padding:13px 20px;background:var(--grad-cool);border:none;border-radius:8px;
-  color:#fff;font-family:'Inter',sans-serif;font-size:.9rem;font-weight:600;cursor:pointer;
-  transition:var(--tr);display:flex;align-items:center;justify-content:center;gap:10px;margin-bottom:20px}
-.weather-btn:hover{transform:translateY(-2px);box-shadow:0 8px 25px rgba(6,182,212,.3)}
-.weather-btn:active{transform:translateY(0)}
 
-/* ── Weather Display ── */
-.weather-data{animation:fadeInUp .4s ease-out}
-.weather-main{text-align:center;padding:20px 0;margin-bottom:16px;border-bottom:1px solid var(--border)}
-.weather-city{font-size:.9rem;font-weight:500;color:var(--t2);margin-bottom:6px;display:flex;align-items:center;justify-content:center;gap:6px}
-.weather-temp{font-size:3rem;font-weight:800;background:var(--grad-cool);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;line-height:1;margin-bottom:6px}
-.weather-cond{font-size:1rem;color:var(--t1);font-weight:500;display:flex;align-items:center;justify-content:center;gap:6px}
 
-.weather-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:16px}
-.stat-item{background:rgba(15,23,42,.5);border:1px solid var(--border);border-radius:8px;padding:12px 8px;text-align:center;transition:var(--tr)}
-.stat-item:hover{border-color:var(--border-h);transform:translateY(-1px)}
-.stat-icon{font-size:1.1rem;margin-bottom:4px}
-.stat-val{font-size:.9rem;font-weight:700;color:var(--t1)}
-.stat-lbl{font-size:.6rem;color:var(--t3);text-transform:uppercase;letter-spacing:1px;margin-top:2px}
-
-.fc-title{font-size:.7rem;font-weight:600;color:var(--t3);text-transform:uppercase;letter-spacing:1.5px;margin-bottom:10px}
-.fc-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:6px}
-.fc-item{background:rgba(15,23,42,.5);border:1px solid var(--border);border-radius:8px;padding:10px 4px;text-align:center;transition:var(--tr)}
-.fc-item:hover{border-color:var(--border-h);transform:translateY(-2px)}
-.fc-day{font-size:.65rem;font-weight:600;color:var(--t3);text-transform:uppercase;margin-bottom:4px}
-.fc-icon{font-size:1.2rem;margin-bottom:3px}
-.fc-temp{font-size:.8rem;font-weight:700;color:var(--t1)}
-
-.weather-ph{text-align:center;padding:36px 16px;color:var(--t3)}
-.weather-ph .ph-icon{font-size:2.5rem;margin-bottom:12px;opacity:.5}
-.weather-ph p{font-size:.85rem}
 
 /* ── JSON Panel (Server Side) ── */
 .json-section{margin-bottom:16px}
